@@ -8,7 +8,6 @@ Group:          Development/Perl
 Summary:        RSA public-key cryptosystem
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Crypt/%{realname}-%{version}.tar.bz2
 URL:		http://search.cpan.org/dist/%{realname}/
-BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:  perl-devel
 BuildRequires:  perl-Crypt-Blowfish
 BuildRequires:  perl-Crypt-CBC
@@ -20,7 +19,6 @@ BuildRequires:  perl-Sort-Versions
 BuildRequires:  perl-Tie-EncryptedHash
 Requires:       perl
 BuildArch:      noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
 %description
 Crypt::RSA is a pure-perl, cleanroom implementation of the
