@@ -2,7 +2,7 @@
 
 Name:           perl-%{realname}
 Version:	    1.58
-Release:        %mkrel 2
+Release:        %mkrel 3
 License:        Artistic
 Group:          Development/Perl
 Summary:        RSA public-key cryptosystem
