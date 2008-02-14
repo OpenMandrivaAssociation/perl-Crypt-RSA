@@ -5,6 +5,7 @@ Version:	    1.58
 Release:        %mkrel 3
 License:        Artistic
 Group:          Development/Perl
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Summary:        RSA public-key cryptosystem
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Crypt/%{realname}-%{version}.tar.bz2
 URL:		http://search.cpan.org/dist/%{realname}/
