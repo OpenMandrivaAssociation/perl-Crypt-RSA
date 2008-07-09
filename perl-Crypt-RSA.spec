@@ -1,7 +1,7 @@
 %define realname Crypt-RSA
 
 Name:           perl-%{realname}
-Version:	    1.97
+Version:	    1.98
 Release:        %mkrel 1
 License:        Artistic
 Group:          Development/Perl
